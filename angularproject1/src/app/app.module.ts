@@ -8,6 +8,7 @@ import { BlogpageComponent } from './blogpage/blogpage.component';
 import { AboutpageComponent } from './aboutpage/aboutpage.component';
 import { ContactformComponent } from './contactform/contactform.component';
 import { HeroComponent } from './hero/hero.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeroComponent } from './hero/hero.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
